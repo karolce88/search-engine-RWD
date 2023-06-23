@@ -1,0 +1,292 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: Lato;
+}
+
+.info-bar {
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-bar-h3 {
+	margin: 30px 0;
+	font-size: 25px;
+	padding-top: 50px;
+}
+
+.search {
+	width: 270px;
+	height: 46px;
+	width: 260px;
+	margin-bottom: 50px;
+	border: 1px solid #dee0e6;
+	padding: 4px 12px;
+}
+
+.menu-filetype {
+	display: none;
+}
+
+.weight-bold, .download-bold, .product-name-bold, .menu-filetype {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.weight-bold-desktop, .menu-filetype-desktop, .download-bold-desktop {
+	display: none;
+}
+
+.weight-bold-desktop {
+	padding-left: 25px;
+}
+
+.table {
+	padding: 10px;
+}
+
+.tdn {
+	list-style: none;
+	padding: 20px;
+}
+
+.table-items {
+	border: 1px solid #dee0e6;
+}
+
+.table-size {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #dee0e6;
+}
+
+.table-size:last-child {
+	margin-bottom: 30px;
+	border-bottom: 0px solid #dee0e6;
+	padding: 0;
+}
+
+.table-menu-item {
+	border-bottom: 1px solid #dee0e6;
+	background-color: #f9f9f9;
+	display: none;
+}
+
+.product-name {
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+
+.weight-name, .filetype-name, .product-number {
+	color: #747372;
+}
+
+.mobile-weight, .mobile-filetype {
+	font-size: 12px;
+}
+
+.mobile-weight, .mobile-filetype {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0;
+}
+
+.file-type-data {
+	text-transform: uppercase;
+}
+
+.download {
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.svg-icon-download {
+	margin-right: 7px;
+}
+
+.tdn-link-download {
+	text-decoration: none;
+	color: #111;;
+}
+
+.tdn-link-download {
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+.download {
+	display: inline-block;
+
+}
+
+@media (min-width: 757px) {
+    .info-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .info-bar-h3 {
+        margin: 0px;
+		margin-left: 60px;
+        font-size: 25px;
+		padding-top: 0px;
+    }
+
+    .search {
+		width: 400px;
+		height: 46px;
+        margin-right: 60px;
+		margin-bottom: 0px;
+		padding: 8px 16px;
+    }
+
+	.table-items {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.tdn {
+		width: 100%;
+		
+	}
+
+	.download {
+		justify-content: flex-end;
+		width: 120px;
+		padding: 0;
+	}
+
+	.mobile-weight, .mobile-filetype {
+		display: flex;
+		justify-content: center;
+		padding: 8px 0;
+		width: 80px;
+	}
+
+	.weight-name, .filetype-name {
+		display: none;
+	}
+	
+	.product-name {
+		width: 330px;
+		padding-bottom: 10px;
+	}
+
+	.table-size {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.menu-filetype {
+		display: inline-block;
+	}
+
+	.weight-bold, .download-bold, .product-name-bold, .menu-filetype {
+		width: 100px;
+	}
+
+	.right-menu {
+		display: none;
+	}
+
+	.weight-bold-desktop, .menu-filetype-desktop, .download-bold-desktop {
+		display: inline-block;
+		font-weight: bold;
+	}
+
+	.product-name-bold {
+		display: inline-block;
+		width: 300px;
+	}
+
+	.download-bold-desktop {
+		padding-right: 15px;
+	}
+
+	.menu-filetype-desktop {
+		padding-right: 15px;
+	}
+
+	.product-name-bold {
+		padding-left: 40px;
+	}
+
+	.table-menu-item {
+		display: flex;
+		height: 90px;
+		align-items: center;
+		border-top: 1px solid #dee0e6;
+		border-left: 1px solid #dee0e6;
+		border-right: 1px solid #dee0e6;
+	}
+
+	.table-size {
+		margin-bottom: 0px;
+		padding: 8px 15px;
+		display: flex;
+		align-items: center;
+	}
+
+	.table-size:last-child {
+		margin-bottom: 0px;
+		padding: 8px 15px;
+	}
+
+	.table-size:last-child:hover {
+		border-bottom: 1px solid #dee0e6;
+	}
+
+	.table-bg-hover {
+		border-left: 1px solid transparent;
+		border-right: 1px solid transparent;
+	}
+
+	.table-bg-hover:hover {
+		background-color: #f9f9f9;
+		border-left: 1px solid #dee0e6;
+		border-right: 1px solid #dee0e6;
+	}
+
+	.table-bg-hover:hover  {
+		background-color: #f9f9f9;
+		border-left: 1px solid #dee0e6;
+		border-right: 1px solid #dee0e6;
+	}
+
+	.tdn-link-download:hover {
+		color: #575757;
+	}
+
+	.product-name-bold {
+		font-size: 16px;
+	}
+
+	.download {
+		width: auto;
+		padding: 0;
+	}
+
+	.table-size {
+		display: flex;
+		flex-direction: row;
+	}
+}
